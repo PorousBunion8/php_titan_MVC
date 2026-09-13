@@ -1,0 +1,58 @@
+﻿/* estilos para telas de login e cadastro */
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.auth-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #111111;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: none;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+.form-group input:focus {
+    box-shadow: 0 0 0 1px #000000;
+}
+
+.auth-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.auth-link {
+    color: #0044cc;
+    text-decoration: underline;
+    font-size: 14px;
+}

@@ -1,0 +1,33 @@
+﻿# Arquivos de log e depuração
+logs/*.log
+!logs/.gitkeep
+*.log
+
+# Arquivos de ambiente e configurações sensíveis locais
+.env
+.env.*
+config.local.php
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Dependências (caso venham a ser usadas no futuro)
+vendor/
+node_modules/
+
+# Temporários e Backups
+*.tmp
+*.bak
+*.orig

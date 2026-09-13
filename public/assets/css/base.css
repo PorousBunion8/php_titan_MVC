@@ -1,0 +1,63 @@
+﻿/* estilos globais e componentes basicos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #222222;
+}
+
+/* botoes */
+.btn {
+    padding: 9px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #777777;
+    color: #ffffff;
+}
+
+/* alertas */
+.alert {
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.alert-danger {
+    background-color: #fde8e8;
+    color: #9b1c1c;
+    border-left: 4px solid #9b1c1c;
+}
+
+.alert-success {
+    background-color: #def7ec;
+    color: #03543f;
+    border-left: 4px solid #03543f;
+}

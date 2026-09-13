@@ -1,0 +1,5 @@
+﻿/* arquivo de unificacao dos modulos de estilo */
+
+@import 'base.css';
+@import 'auth.css';
+@import 'dashboard.css';
